@@ -3,52 +3,101 @@ title: "Exploratory Analysis"
 output: html_document
 ---
 
-## Project title
-
-Give your project a concise, interesting title that summarizes the entirety of your project
+## The Dairy Dilemma: Exploring Ice Cream's Environmental Impact
 
 ### Authors
 
-Names of your team members
+Vamika Goel - vamikag@uw.edu
+
+Hannah Kim - hkim08@uw.edu
+
+Menglu Zhang- menglz2@uw.edu
+
+Rizkika Ramadhanti - kika3431@uw.edu
 
 ### Date
 
-Winter 2022
+Spring 2024
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+Our main question concerns the popularity of traditional dairy ice cream vs dairy-free ice cream. This question is important due to the substantial greenhouse gas emissions associated with dairy production. To address this issue, we will evaluate customer satisfaction with several well-known ice cream brands, comparing their traditional dairy products to their dairy-free counterparts.
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Ice cream, dairy, non-dairy, customer satisfaction, carbon footprint
+
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+The project aims to investigate the environmental impact of dairy ice cream consumption using a comprehensive dataset containing flavors, reviews, and other details from popular brands such as Ben & Jerry's, Häagen-Dazs, Breyers, and Talenti. Three primary research questions guide this inquiry:
+
+Are there significant differences in consumer satisfaction (ratings) between dairy and dairy-free ice creams from the same brand?
+
+What is the impact of introducing dairy-free alternatives on a brand's overall portfolio performance?
+
+Does a larger assortment of dairy products within a brand correlate with higher or lower average ratings for those products?
+
+These research questions are motivated by the urgent need to address climate change and the significant role that food production, including dairy farming, plays in greenhouse gas emissions. By quantifying the carbon footprint of dairy ice cream production and understanding consumer perceptions, this project seeks to provide insights into the environmental consequences of dietary choices and inform strategies for reducing emissions in the food sector. Moreover, exploring the potential of non-dairy alternatives aligns with broader efforts to promote sustainable consumption patterns and mitigate the impacts of climate change on a global scale.
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+One of the main concerns with dairy ice cream is its impact on climate change. Many factors go into making the classic dessert that we know today. However, the harm outweighs the good and we want to showcase why trying the dairy-free alternative dessert can make a difference. One of the ingredients that make ice cream its texture is palm oil. Many rainforests in Indonesia and Malaysia are being destroyed for palm oil plantations. Not only will this affect climate change, but it can also threaten the endangered species that live there (WWF, 2016). Not only that, dairy ice cream requires more resources to produce like water, land, and emits more greenhouse gasses into the atmosphere (Ashli, 2023). On the other hand, we’ve come a long way in terms of dairy-free ice cream flavors and they taste just as delicious. There are also many benefits to indulging in dairy-free alternative ice cream. For example, plant-based ice creams made of cashews, almonds, or coconut milk contain more nutrients, vitamins, and minerals for our body. It can also help with heart health, and weight loss, and even reduce the risk of type 2 diabetes (Kumar, 2022). Another benefit to going dairy-free is that no animals will be harmed or exploited in the process!
+
+Kumar, S. (2022, May 26). Vegan ice cream: Why you should invest in dairy-free flavors?. Nature’s Organic Ice Cream. https://www.naturesorganicicecream.com/news-blog/vegan-ice-cream-why-you-should-invest-in-dairy-free-flavors/
+
+Ice cream’s impact on the Environment | Magazine Articles | WWF. (n.d.). https://www.worldwildlife.org/magazine/issues/summer-2016/articles/ice-cream-s-impact-on-the-environment
+
+Ashli. (2023, October 25). What is dairy-free ice cream?. eclipsefoods.com. https://eclipsefoods.com/blog/what-is-dairy-free-ice-cream/#:~:text=Choosing%20dairy%2Dfree%20ice%20cream,greenhouse%20gases%20into%20our%20atmosphere
+
+
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+>Data Source:
+>
+Kaggle - Ice Cream Dataset (https://www.kaggle.com/datasets/tysonpo/ice-cream-dataset)
+
+> Data Creators:
+>    
+The ice cream companies ( Ben & Jerrys, Breyes, Talenti Gelato)  provided the data but Tyson Pond combined them.
+
+> Data Collection:
+> 
+The data was collected directly from the brand websites: Ben & Jerry's, Häagen-Dazs, Breyers, and Talenti 
+
+(i) https://www.benjerry.com/flavors/ice-cream-pints
+
+(ii) https://www.haagendazs.us/products
+
+(iii) https://www.breyers.com/us/en/products.html
+
+(iv) https://www.talentigelato.com/product-category/talenti-gelato-flavors.
+
+> Number of Observations:
+> 
+182
+
+>Number of Features:
+>
+8 
+
+> Considerations:
+> 
+When working with this data, ethical questions include privacy, bias in representation, transparency, power dynamics in reviews, impact on brands, ownership of data, fair use of reviews, and community impact.
+
+Potential Limitations and Problems with this Data:
+   
+When working with the ice cream dataset, ethical considerations encompass various aspects including privacy, bias in representation, transparency, power dynamics in reviews, impact on brands, ownership of data, fair use of reviews, and community impact. Ensuring reviewers' privacy, acknowledging potential biases in data collection, maintaining transparency in methodologies, and considering power differentials between consumers and brands are paramount. Ethical analysis should also weigh the impact of findings on brands and the broader community, while respecting ownership rights and adhering to fair use principles. By addressing these ethical questions thoughtfully, researchers can navigate the dataset responsibly, fostering trust and integrity in their analyses while minimizing potential harm.
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+The implication of our ice cream project can be the strategy of changing in ice cream market, making health policy, and developing new ice cream flavors. Based on changing the ice cream market, companies in each brand are able to get the objective data reflected by customers. These data determine which flavors are most popular. Therefore, the business department and marketing department can change the quantity of ice cream production in each flavor and develop inventory management. Additionally, the new products department can suggest new recipes by examining ingredient list. This will help ice cream company to determine the future ice cream market and analyze customers' preferences. Moreover, our ice cream project can implicate policymakers by showing some health issue related on ice cream ingrediants. By analyzing customers' feedback, policymakers can related diabetes and sugar levels by using data visualization. Better health policy will be applied based on our ice-cream project.  Finally, comparing brands is significant because each brand company has different strategies. Finding out which company is using the best productive efficiency can optimize the ice cream market.
+
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+Addressing the impact of dairy ice cream on climate change through data analysis presents several challenges and limitations. Firstly, accurately quantifying the environmental footprint of dairy production requires comprehensive data on factors such as greenhouse gas emissions, water usage, and land use, which may be challenging to obtain with precision. Additionally, the dataset's focus on flavors and reviews may not directly capture environmental metrics, necessitating supplementary data sources or modeling approaches to estimate carbon footprints or other sustainability indicators. Furthermore, the complexity of supply chains in the dairy industry, including variations in production methods and sourcing practices, adds another layer of difficulty in assessing environmental impacts comprehensively. Ethical considerations, such as ensuring fair representation of dairy producers and considering the potential economic ramifications of findings, also require careful attention. Despite these challenges, leveraging the dataset to explore the climate impact of dairy ice cream can still yield valuable insights, provided that limitations are acknowledged and addressed thoughtfully in the analysis. 
+
 
 ### Summary Information
 
