@@ -28,6 +28,7 @@ grouped <- as.data.frame(grouped)
 # Plotting
 ggplot(grouped, aes(x = brand, y = average_rating, fill = category)) +
   geom_bar(stat = 'identity', position = position_dodge()) +
+scale_fill_manual(values = c("dairy" = "#fca9c9", "dairy-free" = "#b0f7f1")) +
   labs(title = 'Average Ratings of Dairy and Dairy-Free Ice Creams by Brand',
        x = 'Ice Cream Brands', y = 'Average Rating') +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
