@@ -26,9 +26,11 @@ grouped <- df %>%
 grouped <- as.data.frame(grouped)
 
 # Plotting
-ggplot(rating_summary, aes(x = RatingCount, y = AverageRating, color = Category)) +
+ggplot(grouped, aes(x = brand, y = average_rating, color = category)) +
   geom_point() +
-  labs(title = "Rating Count vs Average Rating for Dairy and Dairy-Free Ice Creams",
-       x = "Rating Count",
-       y = "Average Rating") +
-  theme_minimal()
+  labs(title = "Average Rating by Brand for Dairy and Dairy-Free Ice Creams",
+       x = "Brand",
+       y = "Average Rating",
+       color = "Category") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
