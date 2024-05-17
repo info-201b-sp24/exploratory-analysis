@@ -54,16 +54,18 @@ Ashli. (2023, October 25). What is dairy-free ice cream?. eclipsefoods.com. http
 
 ### The Dataset
 
->Data Source:
->
+Data Source:
+
 Kaggle - Ice Cream Dataset (https://www.kaggle.com/datasets/tysonpo/ice-cream-dataset)
 
-> Data Creators:
->    
+
+Data Creators:
+   
 The ice cream companies ( Ben & Jerrys, Breyes, Talenti Gelato)  provided the data but Tyson Pond combined them.
 
-> Data Collection:
-> 
+
+Data Collection:
+
 The data was collected directly from the brand websites: Ben & Jerry's, Häagen-Dazs, Breyers, and Talenti 
 
 (i) https://www.benjerry.com/flavors/ice-cream-pints
@@ -74,24 +76,20 @@ The data was collected directly from the brand websites: Ben & Jerry's, Häagen-
 
 (iv) https://www.talentigelato.com/product-category/talenti-gelato-flavors.
 
-> Number of Observations:
-> 
-182
 
->Number of Features:
->
-8 
+Number of Observations:182
 
-> Considerations:
-> 
+Number of Features:8 
+
+
+Considerations:
 When working with this data, ethical questions include privacy, bias in representation, transparency, power dynamics in reviews, impact on brands, ownership of data, fair use of reviews, and community impact.
 
+
 Potential Limitations and Problems with this Data:
-   
 When working with the ice cream dataset, ethical considerations encompass various aspects including privacy, bias in representation, transparency, power dynamics in reviews, impact on brands, ownership of data, fair use of reviews, and community impact. Ensuring reviewers' privacy, acknowledging potential biases in data collection, maintaining transparency in methodologies, and considering power differentials between consumers and brands are paramount. Ethical analysis should also weigh the impact of findings on brands and the broader community, while respecting ownership rights and adhering to fair use principles. By addressing these ethical questions thoughtfully, researchers can navigate the dataset responsibly, fostering trust and integrity in their analyses while minimizing potential harm.
 
 ### Implications
-
 The implication of our ice cream project can be the strategy of changing in ice cream market, making health policy, and developing new ice cream flavors. Based on changing the ice cream market, companies in each brand are able to get the objective data reflected by customers. These data determine which flavors are most popular. Therefore, the business department and marketing department can change the quantity of ice cream production in each flavor and develop inventory management. Additionally, the new products department can suggest new recipes by examining ingredient list. This will help ice cream company to determine the future ice cream market and analyze customers' preferences. Moreover, our ice cream project can implicate policymakers by showing some health issue related on ice cream ingrediants. By analyzing customers' feedback, policymakers can related diabetes and sugar levels by using data visualization. Better health policy will be applied based on our ice-cream project.  Finally, comparing brands is significant because each brand company has different strategies. Finding out which company is using the best productive efficiency can optimize the ice cream market.
 
 
