@@ -34,12 +34,12 @@ rating_summary <- df %>%
             AverageRating = mean(rating, na.rm = TRUE))
 
 # Ensure that Category is a factor with correct levels
-rating_summary$Category <- factor(rating_summary$Category, levels = c("dairy", "dairy-free"))
+rating_summary$Category <- factor(rating_summary$Category, levels = c("Dairy", "Dairy-Free"))
 
 # Plotting scatter plot showing correlation between rating count and average rating
 ggplot(rating_summary, aes(x = RatingCount, y = AverageRating, color = Category)) +
   geom_point() +
-  scale_color_manual(values = c("dairy" = "#fca9c9", "dairy-free" = "#b0f7f1")) +
+  scale_color_manual(values = c("Dairy" = "#fca9c9", "Dairy-Free" = "#b0f7f1")) +
   labs(title = "Correlation between Rating Count and Average Rating for Ice Cream Flavors",
        x = "Rating Count",
        y = "Average Rating")
