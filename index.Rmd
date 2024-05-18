@@ -108,24 +108,35 @@ Include a table of aggregate information
 Describe why you included the table and what information it reveals
 
 ### Chart 1
+Created by Vamika Goel
 
-Include a chart
-
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+``````{r, echo = FALSE, message = FALSE, code = readLines("Chart2.R")}
 ```
 
-### Chart 2
-
-Include a chart
-
 Describe why you chose this chart and what information it reveals
 
-### Chart 3
 
-Include a chart
+### Chart 2
+Created by Hannah Kim
+
+``````{r, echo = FALSE, message = FALSE, code = readLines("chart_Hannah.R")}
+```
+
+**Purpose:**
+
+A box plot chart was chosen as it effectively provides a visual comparison between the ratings between dairy and dairy-free ice creams. The X-axis represents the dairy and dairy-free categories, while the Y-axis displays the ratings. Each box represents the interquartile range, capturing the middle 50% of the data, with whiskers extending to show the range and outliers. 
+
+
+**Insights: **
+
+The chart suggests that dairy-free ice creams are consistently rated higher and more favorably compare to dairy ice creams. This is shown through the higher median and smaller variability. Dairy ice creams have many outliers as well, which indicate that consumer opinions on dairy ice creams are much more diverse.
+
+
+
+### Chart 3
+Created by Rizkika Ramadhanti
+
+``````{r, echo = FALSE, message = FALSE, code = readLines("Chart3_ScatterPlot.R")}
+```
 
 Describe why you chose this chart and what information it reveals
