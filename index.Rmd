@@ -113,7 +113,17 @@ Created by Vamika Goel
 ``````{r, echo = FALSE, message = FALSE, code = readLines("Chart2.R")}
 ```
 
-Describe why you chose this chart and what information it reveals
+**Purpose:**
+
+The purpose of this analysis is to compare the average ratings of dairy and dairy-free ice creams within each brand. This comparison helps identify which brands are preferred in terms of both dairy and dairy-free products, providing insights into consumer preferences and potentially guiding future product development and marketing strategies.
+
+
+**Insights:**
+
+Comparison of Dairy and Dairy-Free Products: By comparing the average ratings within each brand, we can see whether dairy or dairy-free ice creams are generally preferred by consumers for each specific brand.
+Brand Performance: The plot highlights which brands are performing better overall in terms of consumer ratings. Brands with higher average ratings are likely to have better quality or more popular flavors.
+Consumer Preferences: The comparison can reveal consumer trends, such as a growing preference for dairy-free options if those ratings are higher, which could inform product development and marketing strategies.
+Identifying Outliers: Brands with a significant difference in ratings between dairy and dairy-free products can be identified, indicating potential areas for improvement in one category.
 
 
 ### Chart 2
