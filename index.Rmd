@@ -149,4 +149,11 @@ Created by Rizkika Ramadhanti
 ``````{r, echo = FALSE, message = FALSE, code = readLines("Chart3_ScatterPlot.R")}
 ```
 
-Describe why you chose this chart and what information it reveals
+**Purpose:**
+
+The chosen scatter plot effectively illustrates the potential correlation between two critical factors: the popularity and satisfaction level of ice cream flavors. The plot offers a straightforward visual representation by plotting each flavor as a point, with its position determined by both its rating count and average rating. Through this chart, we can quickly discern patterns: whether highly-rated flavors tend to attract more ratings or if there's no clear relationship between popularity and satisfaction.
+
+
+**Insights:**
+
+The scatter plot reveals critical insights into the relationship between the popularity and satisfaction levels of ice cream flavors. Flavors positioned in the upper-right quadrant are popular and highly rated, indicating strong market performers ideal for promotional focus. Conversely, flavors in the upper-left quadrant have low popularity despite their high satisfaction ratings, suggesting potential for growth through targeted marketing. Flavors in the lower-right quadrant attract many consumers but receive low satisfaction ratings, highlighting a need for quality improvements. Overall, the distribution of points indicates general consumer trends and helps manufacturers and retailers make strategic decisions in product development, marketing, and inventory management by identifying which flavors resonate most with consumers.
