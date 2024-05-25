@@ -3,11 +3,12 @@ library(ggplot2)
 
 df <- read.csv('icecream_data.csv')
 
-classify_ice_cream <- function(description) {
-  if (grepl('dairy-free|non-dairy|sorbetto', description, ignore.case = TRUE)) {
-    return('dairy-free')
-  } else {
+classify_ice_cream <- function(ingredients) {
+  dairy_keywords <- c('milk', 'cream', 'butter')
+  if (any(sapply(dairy_keywords, grepl, ingredients, ignore.case = TRUE))) {
     return('dairy')
+  } else {
+    return('dairy-free')
   }
 }
 
