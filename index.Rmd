@@ -98,19 +98,36 @@ Addressing the impact of dairy ice cream on climate change through data analysis
 
 
 ### Summary Information
+Created by Hannah Kim
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+```{r, echo = FALSE, message = FALSE, code = readLines("summary.R")}
+```
+
+Our dataset contains a total of ```r summary_stats$total_icecreams``` different ice creams.
+The mean rating across all ice creams is ```r round(summary_stats$mean_rating, 2)```
+with a median rating of ```r summary_stats$median_rating```.
+The average number of ratings received by the ice creams is ```r round(summary_stats$mean_rating_count, 2)```
+with a median of ```r summary_stats$median_rating_count```. This indicates that while some ice creams have been rated very highly, others have received more moderate scores, leading to a broader distribution of ratings.The total number of ratings provides insight into the popularity and consumer interest in these ice creams. Additionally, the variation between the mean and median ratings suggests the presence of outliars or a potentially skewed distribution. This information is crucial for understanding the overall quality and appeal of the ice creams in the dataset. Although the summary isn't able to give a detailed analysis of dairy vs non-dairy ice creams, it provides a general overview of the dataset's characteristics.
 
 ### Table
+Created by Hannah Kim
 
-Include a table of aggregate information
+```{r, echo = FALSE, message = FALSE, source("table.R")}
+source("table.R")
+styled_table <- readRDS("styled_table.rds")
+styled_table
+```
+<div style="text-align: right;">
+*Note: bj = Ben & Jerry's, hd = Häagen-Dazs* </div> 
 
-Describe why you included the table and what information it reveals
+<br></br>
+The table shows a summary of ice cream brands, highlighting key information like average and median ratings, the total number of ratings, the total number of ice creams, and the number of dairy-free products each brand offers. This helps compare brands based on customer feedback and the availability of dairy-free options. The table is styled with bold headers and colors to make it easy to read and understand.
+
 
 ### Chart 1
 Created by Vamika Goel
 
-``````{r, echo = FALSE, message = FALSE, code = readLines("Chart2.R")}
+```{r, echo = FALSE, message = FALSE, code = readLines("Chart2.R")}
 ```
 
 **Purpose:**
@@ -129,7 +146,7 @@ Identifying Outliers: Brands with a significant difference in ratings between da
 ### Chart 2
 Created by Hannah Kim
 
-``````{r, echo = FALSE, message = FALSE, code = readLines("chart_Hannah.R")}
+```{r, echo = FALSE, message = FALSE, code = readLines("chart_Hannah.R")}
 ```
 
 **Purpose:**
@@ -146,7 +163,7 @@ The chart suggests that dairy-free ice creams are consistently rated higher and 
 ### Chart 3
 Created by Rizkika Ramadhanti
 
-``````{r, echo = FALSE, message = FALSE, code = readLines("Chart3_ScatterPlot.R")}
+```{r, echo = FALSE, message = FALSE, code = readLines("Chart3_ScatterPlot.R")}
 ```
 
 **Purpose:**
